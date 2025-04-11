@@ -1,39 +1,49 @@
 <div class="container-fluid">
   <div class="row presentation">
     <div class="description col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-      <span class="description-name">Roberta Tavares</span>
-      <div class="d-flex justify-content-start pt-4">
-        <h3 class="presentation-header">Seja o protagonista da sua história</h3>
+      <div>
+        <span class="description-name">Roberta Tavares</span>
+        <span class="row description-name"><small>Psicanlista</small></span>
+      </div>
+      <div class="d-flex justify-content-start">
+        <h3 class="presentation-header">Assuma o Controle da Sua Vida</h3>
       </div>
       <div class="d-flex justify-content-start pt-4">
         <span class="presentation-description">
-          Um dia ruim não significa uma vida ruim. Trilhar um caminho baseado nos seus valores é o primeiro passo para
-          desfrutar de uma vida plena e com significado.
+          Um dia difícil não define sua jornada. Ao viver de acordo com seus valores, você dá o primeiro passo para
+          construir uma vida plena e cheia de propósito. É hora de tomar as rédeas da sua história e encontrar o
+          equilíbrio que você merece.
         </span>
       </div>
-      <div class="btn-agendar pt-4">
-        <button class="btn btn-success " routerLink="/agendar"><i class="bi bi-whatsapp pe-2"></i>Agendar
+      <div class="btn-agendar pt-4 d-flex justify-content-center">
+        <button class="btn btn-success " (click)="waMe()"><i class="bi bi-whatsapp pe-2"></i>Agendar
           Consulta</button>
       </div>
     </div>
     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-      <img src="assets/img/roberta-1.svg" width="100%" height="100%">
+      <img src="assets/img/roberta-1.svg" width="100%">
     </div>
   </div>
   <div class="d-flex justify-content-center pb-3">
     <div class="card col-xl-8 col-lg-8 col-md-8 col-sm-8 pt-4 pb-4">
-      <div class="row">
+      <div class="row first-card">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 row">
-          <i class="bi bi-cloud-lightning-rain d-flex justify-content-center"></i>
-          <span class="d-flex justify-content-center">Tratamento para ansiedade</span>
+          <span class="material-symbols-outlined d-flex justify-content-center">
+            cognition
+          </span>
+          <h3 class="d-flex justify-content-center">Tratamento para ansiedade</h3>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 row">
-          <i class="bi bi-layout-wtf d-flex justify-content-center"></i>
-          <span class="d-flex justify-content-center">Inteligência emocional</span>
+          <span class="material-symbols-outlined d-flex justify-content-center">
+            psychology
+          </span>
+          <h3 class="d-flex justify-content-center">Inteligência emocional</h3>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 row">
-          <i class="bi bi-rocket-takeoff d-flex justify-content-center"></i>
-          <span class="d-flex justify-content-center">Desenvolvimento pessoal</span>
+          <span class="material-symbols-outlined d-flex justify-content-center">
+            psychology_alt
+          </span>
+          <h3 class="d-flex justify-content-center">Desenvolvimento pessoal</h3>
         </div>
       </div>
     </div>
@@ -41,64 +51,71 @@
   <div class="p-5">
     <div class="row pb-3">
       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <p>
-          Desenvolver uma relação mais saudável e flexível com suas emoções e pensamentos te permite desfrutar da vida
-          de forma mais leve e equilibrada.
-        </p>
+        <h3>
+          Tratamento para ansiedade - Inteligência emocional
+          Desenvolvimento pessoal
+        </h3>
       </div>
     </div>
     <div class="row pb-3">
       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <p>
-          Se você, frequentemente, sente angustia, ansiedade, falta de energia e motivação, proponho começar uma nova
-          fase: Conhecer a si mesmo e aprender a lidar de forma eficaz com essas adversidades.</p>
+          Criar uma relação mais saudável e flexível com seus sentimentos e pensamentos é fundamental para viver com
+          mais leveza e equilíbrio.
+
+          Se você tem se sentido constantemente angustiado, ansioso ou sem energia, talvez seja o momento de iniciar uma
+          nova jornada: conhecer melhor a si mesmo e aprender formas eficazes de lidar com esses desafios. Juntos,
+          podemos transformar esses momentos difíceis em oportunidades de crescimento e autodescoberta.
+        </p>
       </div>
     </div>
     <div class="d-flex justify-content-center pt-5 pb-3">
-      <button class="btn btn-success " routerLink="/agendar"><i class="bi bi-whatsapp pe-2"></i>Agendar
+      <button class="btn btn-success " (click)="waMe()"><i class="bi bi-whatsapp pe-2"></i>Agendar
         Consulta</button>
     </div>
   </div>
   <div class="p-5">
-
     <div class="row pt-5 pb-3">
-      <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h2>
-          Aprenda a lidar de forma funcional com as suas emoções e não seja mais refém dos seus sentimentos e
+          Aprenda a Conectar-se com Suas Emoções de Forma Saudável. Não precisa mais ser refém dos seus sentimentos e
           pensamentos.
         </h2>
       </div>
     </div>
     <div class="row pt-3 pb-3">
-      <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <p>
-          Já ajudei centenas de pacientes a alcançarem vidas mais valorosas ao encontrar o equilíbrio entre o sentir,
-          pensar e agir auxiliando-os a se reconectarem com seus propósitos.
+          Já ajudei centenas de pacientes a encontrarem mais equilíbrio entre o que sentem, pensam e fazem, permitindo
+          que se reconectem com seus verdadeiros propósitos. Juntos, podemos construir um caminho para uma vida mais
+          significativa e cheia de possibilidades.
         </p>
       </div>
     </div>
-    <div class="row pt-3 pb-3">
-      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+    <div class="row pt-3 pb-3 card-numbers">
+      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
         <div class="card pt-2 pb-3" style="display: flex; text-align: center;">
           <i class="bi bi-people"></i>
-          <span>150</span>
-          <span>Pacientes atendidos</span>
+          <span class="info">120</span>
+          <h3>Pacientes atendidos</h3>
         </div>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="card pt-2 pb-3" style="display: flex; text-align: center;">
           <span class="material-symbols-outlined">
-            forum
+            groups
           </span>
-          <span>5 mil</span>
-          <span>Sessões realizadas</span>
+          <span class="info">2 mil</span>
+          <h3>Sessões realizadas</h3>
         </div>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="card pt-2 pb-3" style="display: flex; text-align: center;">
-          <i class="bi bi-pie-chart"></i>
-          <span>Incontáveis</span>
-          <span>Vidas transformadas</span>
+          <span class="material-symbols-outlined">
+            group_add
+          </span>
+          <span class="info">Incontáveis</span>
+          <h3>Vidas transformadas</h3>
         </div>
       </div>
     </div>
@@ -119,23 +136,22 @@
   </div> -->
   <div class="p-5">
     <div class="row pb-3">
-      <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
-        <h2>A terapia <span class="act">ACT</span> para transformar sua vida</h2>
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <h2>Psicanálise ajuda você a encontrar equilíbrio e paz interior, tornando cada desafio uma oportunidade de
+          crescimento.</h2>
         <h3>Aprenda a lidar com pensamentos e emoções difíceis de uma forma mais saudável e construtiva, ao invés de
           lutar
           contra eles.</h3>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-
-      </div>
     </div>
     <div class="row pb-3">
-      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-
+      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 d-flex">
+        <img src="/assets/img/logo.svg" width="100%" height="60%">
       </div>
       <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
         <p>
-          A <strong>ACT</strong> é uma abordagem da psicologia contextual baseada em evidencias que tem como objetivo
+          A <strong>psicanálise</strong> é uma abordagem da psicologia contextual baseada em evidencias que tem como
+          objetivo
           ajudar as pessoas a
           lidar de forma consciente com suas emoções, pensamentos e comportamentos, ao invés de tentar mudá-los ou
           evitá-los, ajudando-as a construir uma vida significativa que reflita seus valores.
@@ -169,10 +185,10 @@
           que
           realmente importam para ele.
         </p>
-      </div>
-      <div class="d-flex justify-content-center pt-5">
-        <button class="btn btn-success" routerLink="/agendar"><i class="bi bi-whatsapp pe-2"></i>Agendar
-          Consulta</button>
+        <div class="d-flex justify-content-center pt-3">
+          <button class="btn btn-success" (click)="waMe()"><i class="bi bi-whatsapp pe-2"></i>Agendar
+            Consulta</button>
+        </div>
       </div>
     </div>
   </div>
@@ -185,38 +201,43 @@
 
         <div class="check-text" style="color: #f5f5dc">
 
-          <p><i class="bi bi-patch-check"></i>Busca desenvolver suas habilidades emocionais;</p>
+          <p><i class="bi bi-patch-check"></i>Quem busca autoconhecimento – pessoas que querem entender mais sobre si,
+            suas emoções e comportamentos.</p>
 
-          <p><i class="bi bi-patch-check"></i>Se sente frequentemente ansioso(a);</p>
-
-          <p><i class="bi bi-patch-check"></i>Está sempre estressado e não consegue lidar com
-            suas emoções;</p>
-
-          <p><i class="bi bi-patch-check"></i>Sente que sua vida não está indo na direção que
-            gostaria, mas não sabe por onde começar a mudança;</p>
-
-          <p><i class="bi bi-patch-check"></i>Deseja desenvolver a inteligência emocional;</p>
-
-          <p><i class="bi bi-patch-check"></i>Quer fortalecer o seu relacionamento consigo mesmo
-            e com as outras pessoas;</p>
-
-          <p><i class="bi bi-patch-check"></i>Passou por situações traumáticas e quer deixá-las
-            para trás;</p>
-
-          <p><i class="bi bi-patch-check"></i>Quer desenvolver hábitos sadios, estimulando a
-            saúde mental diariamente;</p>
-
-          <p><i class="bi bi-patch-check"></i>Quer encontrar o seu propósito de vida;</p>
-
-          <p><i class="bi bi-patch-check"></i>Quer melhorar o seu desenvolvimento como
-            profissional;</p>
-
-          <p><i class="bi bi-patch-check"></i>Quer aumentar sua autoestima e ter mais confiança;
+          <p><i class="bi bi-patch-check"></i>Quem enfrenta conflitos internos – dúvidas, inseguranças ou dificuldades
+            em tomar decisões importantes.
           </p>
+
+          <p><i class="bi bi-patch-check"></i> Pessoas com ansiedade ou depressão – a psicanálise ajuda a identificar
+            raízes emocionais desses estados.</p>
+
+          <p><i class="bi bi-patch-check"></i>Quem repete padrões prejudiciais – como relacionamentos tóxicos,
+            autossabotagem ou compulsões.</p>
+
+          <p><i class="bi bi-patch-check"></i>Pessoas em crise existencial – questionamentos sobre sentido da vida,
+            propósito ou identidade.</p>
+
+          <p><i class="bi bi-patch-check"></i>Quem vive luto ou perdas – dificuldades para lidar com mortes, términos ou
+            mudanças significativas.</p>
+
+          <p><i class="bi bi-patch-check"></i>Pessoas com baixa autoestima – dificuldade de se valorizar, medo de
+            julgamento ou de não ser suficiente.</p>
+
+          <p><i class="bi bi-patch-check"></i>Quem sente culpa ou vergonha excessiva – emoções que bloqueiam o
+            desenvolvimento pessoal.
+          </p>
+
+          <p><i class="bi bi-patch-check"></i> Pessoas com dificuldades nos relacionamentos – seja amoroso, familiar,
+            profissional ou social.</p>
+
+          <p><i class="bi bi-patch-check"></i>Quem deseja melhorar sua qualidade de vida emocional – mesmo sem uma
+            “queixa” específica, a psicanálise promove bem-estar e crescimento pessoal.
+          </p>
+
         </div>
 
         <div class="d-flex justify-content-center pt-5">
-          <button class="btn btn-success" routerLink="/agendar"><i class="bi bi-whatsapp pe-2"></i>Agendar
+          <button class="btn btn-success" (click)="waMe()"><i class="bi bi-whatsapp pe-2"></i>Agendar
             Consulta</button>
         </div>
       </div>
@@ -225,63 +246,131 @@
       </div>
     </div>
   </div>
-  <div class="p-5">
-    <div class="row pt-4">
-      <h4>Conheça a sua psicóloga</h4>
+  <div class="row p-5 d-flex justify-content-center">
+    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+      <div class="timeline">
+
+        <!-- Passo 1 -->
+        <div class="row timeline-item left d-flex align-items-start">
+          <div class="timeline-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <div class="col-12 col-md-6 timeline-content">
+            <h5 class="fw-bold">Passo 1: Primeira Conversa</h5>
+            <p>Agende uma conversa inicial no melhor dia e horário para você. Vamos entender suas necessidades e definir
+              o plano terapêutico. Esclarecemos dúvidas sobre datas, valores e formas de pagamento. Após isso, seu
+              horário será reservado.</p>
+          </div>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="row timeline-item right d-flex align-items-start">
+          <div class="timeline-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <div class="col-12 col-md-6 timeline-content">
+            <h5 class="fw-bold">Passo 2: Agendamento da Consulta</h5>
+            <p>Ao agendar sua consulta, solicitamos algumas informações para pré-cadastro e enviamos um lembrete próximo
+              à data da consulta.</p>
+          </div>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="row timeline-item left d-flex align-items-start">
+          <div class="timeline-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="col-12 col-md-6 timeline-content">
+            <h5 class="fw-bold">Passo 3: Atendimento Terapêutico</h5>
+            <p>Durante as sessões, usamos uma abordagem psicoeducacional para identificar padrões de pensamento e
+              comportamento. O objetivo é ampliar o autoconhecimento e promover soluções alinhadas aos seus valores.</p>
+          </div>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="row timeline-item right d-flex align-items-start">
+          <div class="timeline-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="col-12 col-md-6 timeline-content">
+            <h5 class="fw-bold">Passo 4: Acompanhamento e Evolução</h5>
+            <p>Em cada sessão, avaliamos seu progresso e alinhamento com seus valores. Isso contribui para maior
+              clareza, satisfação e redução de sintomas.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="p-5 self-description">
+    <div class="row pt-4 ">
+      <h2 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3">Conheça a sua psicanalista</h2>
       <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <img src="/assets/img/roberta-4.svg" width="100%" height="100%">
       </div>
-      <div class="ps-3 col-xl-8 col-lg-8 col-md-12 col-sm-12">
-        <span>
-          Nathália Moura é psicóloga clínica e, desde 2017, já ajudou centenas de pessoas a atingirem sua melhor versão
-          e
-          alcançarem uma melhor qualidade de vida através da terapia contextual.
-
-          Sua história mudando a vida das pessoas começa no início da faculdade quando teve a oportunidade de trabalhar
-          como
-          vendedora em uma boutique erótica e como professora de dança, locais que a permitiram desenvolver um olhar
-          acolhedor ao lidar com pessoas em situações completamente vulneráveis.
-
-          Sua jornada na psicologia começou iniciou ainda na faculdade, realizando atendimentos na clínica escola e em
-          uma
-          escola do município onde teve contato com realidades completamente diferentes das que estava acostumada,
-          permitindo que desenvolvesse uma visão de mundo muito mais empática.
-
-          Hoje, combina em sua prática clínica seus conhecimentos em psicologia, neurociência e comportamento e sua
-          experiência plural de vida.
-        </span>
+      <div class="text-self-description  ps-5 col-xl-8 col-lg-8 col-md-12 col-sm-12">
+        <p><strong>
+            Roberta Tavares – Psicanalista
+          </strong>
+        </p>
+        <p>
+          Desde 2023, Roberta Tavares tem ajudado centenas de pessoas a atingirem sua melhor versão e conquistarem uma
+          vida mais equilibrada e significativa por meio da terapia contextual.
+        </p>
+        <p>
+          Sua jornada no universo da psicanálise Freudiana começou de maneira única, ainda no início da Pós Graduação,
+          quando teve a oportunidade de trabalhar como vendedora em uma boutique erótica e como professora de dança.
+          Essas experiências lhe permitiram desenvolver um olhar mais acolhedor e empático, especialmente ao lidar com
+          pessoas em situações de vulnerabilidade.
+        </p>
+        <p>
+          A verdadeira imersão na psicanálise aconteceu durante sua pós-graduação na PUCRS, quando iniciou atendimentos
+          em clínicas, ONGs e teve contato com realidades muito diferentes das que estava acostumada. Essa vivência
+          expandiu sua visão de mundo, tornando-a uma profissional mais empática e atenta às diversas necessidades
+          humanas.
+        </p>
+        <p>
+          Hoje, Roberta combina seus conhecimentos em psicologia, neurociência e comportamento com sua experiência de
+          vida, oferecendo uma abordagem clínica integrativa, que permite um atendimento mais profundo e eficaz aos seus
+          pacientes.
+        </p>
       </div>
       <div class="d-flex justify-content-center pt-5">
-        <button class="btn btn-success" routerLink="/agendar"><i class="bi bi-whatsapp pe-2"></i>Agendar
+        <button class="btn btn-success" (click)="waMe()"><i class="bi bi-whatsapp pe-2"></i>Agendar
           Consulta</button>
       </div>
     </div>
-    <div class="row pt-4">
-      <h4>Contato rápido</h4>
-      <div class="col-xl-6 col-md-6 col-md-12 col-sm-12 col-xs-12">
-        <div class="row">
-          <h3><i class="bi bi-geo-alt d-flex align-items-center pe-2">Endereço</i></h3>
-          <span>Rua Cinco de Julho</span>
-        </div>
-        <div class="row">
-          <h3><i class="bi bi-telephone d-flex align-items-center pe-2">Telefone</i></h3>
-          <span>(21) 96746-9926</span>
-        </div>
-        <div class="row">
-          <h3><i class="bi bi-envelope d-flex align-items-center pe-2">E-mail</i></h3>
-          <span></span>
-        </div>
-        <div class="row">
-          <h3><i class="bi bi-clock d-flex align-items-center pe-2">Horário de funcionamento</i></h3>
-          <span></span>
-        </div>
+  </div>
+  <div class="row pe-5 ps-5">
+    <h4>Contato rápido</h4>
+    <div class="col-xl-6 col-md-6 col-md-12 col-sm-12 col-xs-12 contact">
+      <div class="row">
+        <h3><i class="bi bi-geo-alt d-flex align-items-center pe-2">Endereço</i></h3>
+        <span>Rua Cinco de Julho</span>
       </div>
-      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 p-3">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.259796371414!2d-43.106241525260906!3d-22.903786537762674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983fa431bbaff%3A0x84662dbff9467fea!2sR.%20Cinco%20de%20Julho%2C%20Niter%C3%B3i%20-%20RJ%2C%2024220-000!5e0!3m2!1spt-PT!2sbr!4v1743880016727!5m2!1spt-PT!2sbr"
-          width="100%" height="200%" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="row">
+        <h3><i class="bi bi-telephone d-flex align-items-center">Telefone</i></h3>
+        <span>(21) 96746-9926</span>
       </div>
+      <div class="row">
+        <h3><i class="bi bi-envelope d-flex align-items-center pe-2">E-mail</i></h3>
+        <span>{{email}}</span>
+      </div>
+      <div class="row">
+        <h3><i class="bi bi-clock d-flex align-items-center pe-2">Horário de funcionamento</i></h3>
+        <p>
+          <strong> Seg a quinta</strong>
+        </p>
+        <p>
+          11:00 às 20:00
+        </p>
+      </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 p-3">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.259796371414!2d-43.106241525260906!3d-22.903786537762674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983fa431bbaff%3A0x84662dbff9467fea!2sR.%20Cinco%20de%20Julho%2C%20Niter%C3%B3i%20-%20RJ%2C%2024220-000!5e0!3m2!1spt-PT!2sbr!4v1743880016727!5m2!1spt-PT!2sbr"
+        width="100%" height="200%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </div>
